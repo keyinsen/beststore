@@ -1,0 +1,251 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+body{
+	min-width: 1300px;
+	
+	background-color: #ffffff;
+}
+.div1{
+	background:#363636;
+	height: 40px;
+	width: 1349px;
+    line-height: 40px; 
+}
+.div1 span:first-child{	
+	position: relative;
+	left: 30px;
+}
+.div1 a{
+	text-decoration: none;
+	color: #BABABA;
+}
+.div1 a:hover{
+	text-decoration: none;
+	color:#FF2832;	
+}
+.div1 ul{
+	list-style: none;
+	display:inline;
+	position: relative;
+	left: 700px;
+}
+.div1 ul li{
+	display:inline-block;
+	color: #BABABA;
+}
+.cartlist{
+	width:300px;
+	height:300px;
+	position: absolute;
+	top: 28px;
+	/*left: 1050px;*/
+	background:#B5B5B5;
+	display: none;	
+	z-index: 10;
+	right: -70px;
+	opacity: 0.5;
+}
+.cartlist span:first-child{
+	position: relative;
+	left: 125px;
+	top: 100px;
+}
+.cartlist span:nth-child(2){
+	position: relative;
+	text-align: center;
+	top: 150px;
+	color:#363636;
+}
+.list{
+	width:300px;
+	height:300px;
+	position: absolute;
+	top: 28px;
+	/*left: 1050px;*/
+	background:#B5B5B5;
+	display: none;	
+	z-index: 10;
+	right: -50px;
+	opacity: 0.5;	
+}
+.list span:first-child{
+	position: relative;
+	left: 70px;
+	text-align: center;
+	top: 110px;
+	color:#363636;
+}
+.wrap {
+  min-height: 665px;
+  background: #F4F4F4;
+}
+.wrap .nav {
+  min-width: 1000px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 80px;
+  font-size: 13px;
+  border-bottom: 1px solid #ddd;
+}
+.wrap .nav .home {
+  text-decoration: none;
+  color: #222;
+}
+.wrap .nav ul {
+  float: right;
+  margin-right: 80px;
+}
+.wrap .nav ul li {
+  list-style: none;
+  float: left;
+  width: 100px;
+  text-align: center;
+  line-height: 30px;
+}
+.wrap .nav ul li .cartList {
+  height: 50px;
+  min-width: 200px;
+  background: #F4F4F4;
+  margin-left: -50px;
+  border: 1px solid #ddd;
+  border-top: none;
+  text-align: center;
+  color: #666;
+  font-size: 13px;
+  display: none;
+}
+.wrap .nav ul li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 13px;
+  border-right: 1px solid #ddd;
+  height: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.wrap .nav ul .ser {
+  margin-right: 5px;
+  background: #F4F4F4;
+  border: 1px solid #ddd;
+  border-top: none;
+  display: none;
+  color: #666;
+}
+ .head {
+  height: 70px;
+  border-bottom: 1px solid #ddd;
+  padding-left: 75px;
+  margin-bottom: 40px;
+}
+ .head img {
+  margin-top: 10px;
+}
+.head img:nth-child(2){
+  margin-left: 450px;
+}
+.wrap .selectaddr{
+  text-align: center;
+  min-height: 240px;
+  width: 85%;
+  margin: 0 auto;
+  background: #fff;
+}
+.wrap .selectaddr ul{
+	position: relative;
+	left:-345px;
+	list-style: none;
+}
+.wrap .selectaddr ul li{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	
+}
+.wrap .selectaddr ul li a{
+	text-decoration: none;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border: 2px solid gainsboro;
+}
+.wrap .selectaddr ul li a h3{
+	color: black;
+}
+.wrap .selectaddr ul li a p{
+	color: black;
+}
+.wrap .selectaddr ul li a.on{
+	border: 2px solid red;
+}
+.wrap .selectaddr p{
+	text-align: left;
+	font-size: 16px;
+	margin-left: 25px;
+}
+.wrap .content p{
+	text-align: left;
+	font-size: 16px;
+	margin-left: 25px;
+}
+.wrap .content {
+  text-align: center;
+  min-height: 230px;
+  width: 85%;
+  margin: 0 auto;
+  background: #fff;
+  margin-bottom: 60px;
+}
+.wrap .content h3 {
+  font-size: 15px;
+  color: #333333;
+}
+.wrap .content table {
+  margin: 0 auto;
+  width: 95%;
+}
+.wrap .content table tr {
+  min-height: 65px;
+}
+.wrap .content table tr td {
+  width: 14%;
+  text-align: center;
+  line-height: 65px;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+}
+.wrap .content table tr td img{
+  width: 80px;
+  height: 80px;
+}
+.wrap .content table tr td button.button1{
+  width: 150px;
+  height: 65px;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+}
+.wrap .content table tr td button.button1{
+   background: #FFA701;
+}
+.wrap .content table .total .total_c {
+  text-align: right;
+  padding-right: 40px;
+}
+.wrap .foot {
+  text-align: center;
+  color: #666;
+}
+.wrap .foot img {
+  margin-top: 20px;
+}
+.wrap .foot a {
+  text-decoration: none;
+  color: #666;
+}
+.wrap .span10{
+	font-size: 25px;
+}
+/*# sourceMappingURL=cart.css.map */
